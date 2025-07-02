@@ -176,7 +176,7 @@ fun AvatarPreview(equipped: String) {
     Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
         Spacer(modifier = Modifier.height(16.dp))
         Image(
-            painter = painterResource(id = R.drawable.avatar_placeholder), // ✅ fixed missing reference
+            painter = painterResource(id = R.drawable.avatar_placeholder),
             contentDescription = "Avatar",
             modifier = Modifier.size(96.dp)
         )
