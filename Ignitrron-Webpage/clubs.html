@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Clubs — Ignitrron</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ --bg:#000; --red:#ff1e1e; --muted:#bdbdbd; }
+    body{font-family:'Rajdhani',sans-serif;background:var(--bg);color:#fff;margin:0;padding:0;-webkit-font-smoothing:antialiased}
+    nav.site-nav{position:sticky;top:0;z-index:60;backdrop-filter: blur(8px);-webkit-backdrop-filter: blur(8px);background: linear-gradient(180deg, rgba(0,0,0,0.55), rgba(0,0,0,0.35));border-bottom:1px solid rgba(255,255,255,0.03)}
+    .logo{font-family:'Orbitron',sans-serif}
+    .card-glow{ background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border: 1px solid rgba(255,30,30,0.06); transition: transform .36s, box-shadow .36s;}
+    .card-glow:hover{ transform: translateY(-6px); box-shadow: 0 0 24px rgba(255,30,30,0.12); }
+    .club-badge{ background: linear-gradient(135deg,var(--red), #ff6b6b); width:64px;height:64px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:700;}
+  </style>
+</head>
+<body>
+  <nav class="site-nav w-full z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <div class="logo text-2xl font-bold glow-red">IGNITRRON</div>
+      </div>
+      <div class="hidden md:flex items-center gap-6 text-sm">
+        <a href="index.htm" class="hover:text-red-400 transition">Home</a>
+        <a href="clubs.html" class="hover:text-red-400 transition">Clubs</a>
+        <a href="projects.html" class="hover:text-red-400 transition">Projects</a>
+        <a href="about.html" class="hover:text-red-400 transition">About</a>
+        <a href="contact.html" class="hover:text-red-400 transition">Contact</a>
+      </div>
+      <div class="md:hidden">
+        <button id="hamburger2" class="p-2 rounded-md border border-gray-700">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <h1 class="text-3xl font-bold">Clubs</h1>
+    <p class="mt-2 text-gray-400">Full list of clubs. Click any club to view details.</p>
+
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <!-- Club 1 -->
+      <article class="p-4 rounded-xl card-glow border border-gray-800 flex gap-4 items-center">
+        <div class="club-badge">C1</div>
+        <div>
+          <h3 class="font-semibold">Club 1</h3>
+          <p class="text-sm text-gray-400">Motto: — (placeholder)</p>
+          <div class="mt-3">
+            <a href="club-template.html" class="px-3 py-2 rounded-md border border-gray-700 text-sm">Open</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Club 2 -->
+      <article class="p-4 rounded-xl card-glow border border-gray-800 flex gap-4 items-center">
+        <div class="club-badge">C2</div>
+        <div>
+          <h3 class="font-semibold">Club 2</h3>
+          <p class="text-sm text-gray-400">Motto: — (placeholder)</p>
+          <div class="mt-3">
+            <a href="club-template.html" class="px-3 py-2 rounded-md border border-gray-700 text-sm">Open</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Club 3 -->
+      <article class="p-4 rounded-xl card-glow border border-gray-800 flex gap-4 items-center">
+        <div class="club-badge">C3</div>
+        <div>
+          <h3 class="font-semibold">Club 3</h3>
+          <p class="text-sm text-gray-400">Motto: — (placeholder)</p>
+          <div class="mt-3">
+            <a href="club-template.html" class="px-3 py-2 rounded-md border border-gray-700 text-sm">Open</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="mt-12 border-t border-gray-800">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
+      <div>© Ignitrron — Built with ❤️</div>
+      <div class="mt-3 md:mt-0">Follow us: <span class="ml-2 text-white">Discord · Instagram · GitHub</span></div>
+    </div>
+  </footer>
+
+  <script>
+    // mobile menu toggle for clubs page
+    const hb2 = document.getElementById('hamburger2');
+    hb2 && hb2.addEventListener('click', ()=> {
+      // simply show a small alert on mobile for now, or implement similar mobile menu as index if desired
+      alert('Open nav on mobile — or copy index mobile menu logic here.');
+    });
+  </script>
+</body>
+</html>

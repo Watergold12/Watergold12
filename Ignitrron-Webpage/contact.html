@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Ignitrron</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ --bg:#000; --red:#ff1e1e; }
+    body{font-family:'Rajdhani',sans-serif;background:var(--bg);color:#fff;margin:0}
+    nav.site-nav{position:sticky;top:0;z-index:60;backdrop-filter:blur(8px);background:rgba(0,0,0,0.55)}
+    .logo{font-family:'Orbitron',sans-serif}
+    .card-glow{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border:1px solid rgba(255,30,30,0.06);padding:18px;border-radius:14px}
+    input,textarea{background:#070707;border:1px solid #333;padding:10px;border-radius:8px;width:100%;color:#fff}
+    button{background:linear-gradient(90deg,var(--red),#ff5a5a);padding:10px 16px;border-radius:8px;color:#000;font-weight:600}
+    /* Glowing red gradient button */
+    .btn-ignite {
+      background: linear-gradient(90deg, #ff1e1e, #ff5a5a);
+      color: #fff;
+      font-weight: 600;
+      padding: 10px 16px;
+      border-radius: 8px;
+      transition: transform 0.28s ease, box-shadow 0.28s ease;
+      display: inline-block;
+    }
+    .btn-ignite:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 12px rgba(255,30,30,0.4);
+    }
+  </style>
+</head>
+<body>
+  <nav class="site-nav w-full">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="logo text-2xl font-bold">IGNITRRON</div>
+      <div class="hidden md:flex gap-6 text-sm">
+        <a href="index.htm">Home</a>
+        <a href="clubs.html">Clubs</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="text-red-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <h1 class="text-3xl font-bold">Contact Us</h1>
+    <p class="mt-2 text-gray-400">Reach out for questions, collaborations, or to join a club.</p>
+
+    <div class="mt-8 grid md:grid-cols-2 gap-6">
+      <form class="card-glow space-y-4">
+        <input type="text" class="p-3 rounded-md bg-[#070707] border border-gray-800 text-sm" placeholder="Your Name" required>
+        <input type="email" class="p-3 rounded-md bg-[#070707] border border-gray-800 text-sm" placeholder="Your Email" required>
+        <textarea rows="4" class="p-3 rounded-md bg-[#070707] border border-gray-800 text-sm" placeholder="Message"></textarea>
+        <button type="submit" class="btn-ignite w-full">Send</button>
+      </form>
+
+      <div class="card-glow">
+        <h3 class="font-semibold">Contact Info</h3>
+        <p class="mt-2 text-sm text-gray-400">Email: email@college.edu</p>
+        <p class="mt-2 text-sm text-gray-400">Address: 1st Floor, Mechanical Block, KPRIET, Avinashi-Coimbatore road, <br>Arasur, Uthupalayam, Coimbatore</p>
+        <p class="mt-2 text-sm text-gray-400">Instagram</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="mt-12 border-t border-gray-800">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex justify-between text-sm text-gray-400">
+      <div>© Ignitrron — Built with ❤️</div>
+      <div>Follow: Discord · Instagram · GitHub</div>
+    </div>
+  </footer>
+</body>
+</html>
