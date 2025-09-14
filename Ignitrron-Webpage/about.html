@@ -12,7 +12,6 @@
     nav.site-nav{position:sticky;top:0;z-index:60;backdrop-filter:blur(8px);background:rgba(0,0,0,0.55)}
     .logo{font-family:'Orbitron',sans-serif}
     .card-glow{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border:1px solid rgba(255,30,30,0.06);padding:18px;border-radius:14px}
-    /* Glow card hover effect */
 .card-glow {
   background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
   border: 1px solid rgba(255,30,30,0.06);
@@ -25,7 +24,6 @@
   box-shadow: 0 0 24px rgba(255,30,30,0.2);
 }
 
-/* Ignite button (matches your See Clubs) */
 .btn-ignite {
   background: linear-gradient(90deg, #ff1e1e, #ff5a5a);
   color: #fff;
@@ -40,11 +38,9 @@
   box-shadow: 0 0 12px rgba(255,30,30,0.4);
 }
 
-/* Make all buttons use .btn-ignite */
 button, .btn {
-  @apply btn-ignite; /* if Tailwind is set up with @apply */
+  @apply btn-ignite;
 }
-/* OR if not using Tailwind custom classes, add class="btn-ignite" manually */
 
   </style>
 </head>
@@ -90,3 +86,4 @@ button, .btn {
   </footer>
 </body>
 </html>
+
