@@ -1,5 +1,5 @@
--Hello, I am Vishal.
--I am a software and hardware developer. I have been working around many projects.
--Hardware: Basically drones, rover bots and more...
--Software: Web, app and more...
+-Hello, I am Vishal. \n
+-I am a software and hardware developer. I have been working around many projects. \n
+-Hardware: Basically drones, rover bots and more... \n
+-Software: Web, app and more... \n
 -Feel free to reach me out: vishal.aa9c30@gmail.com
