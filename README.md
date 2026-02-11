@@ -1,11 +1,10 @@
 # Hey 👋 I'm Vishal
 
-> Selectively lazy. Actively building.
-> Hello, I am Vishal.
-> > I am a software and hardware developer. I have been working around many projects. 
-> Hardware: Basically drones, rover bots and more... 
-> Software: Web, app and more... 
-> Feel free to reach me out: vishal.aa9c30@gmail.com
+- Hello, I am Vishal.
+- I am a software and hardware developer. I have been working around many projects. 
+- Hardware: Basically drones, rover bots and more... 
+- Software: Web, app and more... 
+- Feel free to reach me out: vishal.aa9c30@gmail.com
 
 ---
 
