@@ -10,9 +10,9 @@
 
 ## 🚀 Builder Mode Activated
 
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=blue&style=for-the-badge)
-![GitHub followers](https://img.shields.io/github/followers/YOUR_USERNAME?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=watergold12&color=blue&style=for-the-badge)
+![GitHub followers](https://img.shields.io/github/followers/watergold12?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/watergold12?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge)
 
 ---
 
