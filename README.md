@@ -10,9 +10,9 @@
 
 ## 🚀 Builder Mode Activated
 
-![Profile Views](https://komarev.com/ghpvc/?username=watergold12&color=blue&style=for-the-badge)
-![GitHub followers](https://img.shields.io/github/followers/watergold12?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/watergold12?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=Watergold12&color=blue&style=for-the-badge)
+![GitHub followers](https://img.shields.io/github/followers/Watergold12?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/Watergold12?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge)
 
 ---
 
@@ -54,13 +54,13 @@
 
 ## 📊 GitHub Stats (Live & Animated)
 
-![Vishal's GitHub stats](https://github-readme-stats.vercel.app/api?username=watergold12&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=watergold12&layout=compact&theme=tokyonight)
+![Vishal's GitHub stats](https://github-readme-stats.vercel.app/api?username=Watergold12&show_icons=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Watergold12&layout=compact&theme=tokyonight)
 
 ---
 
 ## 🐍 Contribution Snake (Because Why Not)
 
-![Snake animation](https://raw.githubusercontent.com/watergold12/watergold12/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/Watergold12/Watergold12/output/github-contribution-grid-snake.svg)
 
 ---
