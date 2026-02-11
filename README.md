@@ -54,13 +54,13 @@
 
 ## 📊 GitHub Stats (Live & Animated)
 
-![Vishal's GitHub stats](https://github-readme-stats.vercel.app/api?username=Watergold12&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Watergold12&layout=compact&theme=tokyonight)
+![Vishal's GitHub stats](https://github-readme-stats.vercel.app/api?username=Watergold12&show_icons=true&theme=tokyonight&cache_seconds=10)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Watergold12&layout=compact&theme=tokyonight&cache_seconds=10)
 
 ---
 
 ## 🐍 Contribution Snake (Because Why Not)
 
-![Snake animation](https://raw.githubusercontent.com/Watergold12/Watergold12/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/Watergold12/Watergold12/output/github-contribution-grid-snake.svg&cache_seconds=10)
 
 ---
